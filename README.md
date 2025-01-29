@@ -65,6 +65,33 @@ This will create the EC2 instance, security groups, and install necessary tools 
 
 3. **Global Tool Configuration**:
    - Set up tools like JDK 17, SonarQube Scanner, NodeJS, and Docker under `Manage Jenkins → Global Tool Configuration`.
+     
+# JENKINS GLOBAL TOOL CONFIGURATION:
+
+ 	**JDK Installation:**
+•	Name: jdk17
+•	Install From: adoptium.net
+•	Version: jdk17.0.8.1+1
+
+ 	**SonarQube Scanner Installation:**
+•	Name: sonar-scanner
+•	Install From: Maven Central
+•	Version: 6.2.0.4584
+
+ 	**NodeJS Installation:**
+•	Name: node16
+•	Install From: nodejs.org
+•	Version: 16.20.0
+
+ 	**Docker Installation:**
+•	Name: docker
+•	Install From: docker.com
+•	Version: Latest
+
+  
+## Add SonarQube servers
+   - `Manage Jenkins` --> `System` --> `SonarQube servers` --> name:- `sonar-server`
+
 
 ## Pipeline Overview
 ### Pipeline Stages
