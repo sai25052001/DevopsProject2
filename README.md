@@ -72,14 +72,17 @@ This will create the EC2 instance, security groups, and install necessary tools 
 •	Name: jdk17
 •	Install From: adoptium.net
 •	Version: jdk17.0.8.1+1
+
 **SonarQube Scanner Installation:**
 •	Name: sonar-scanner
 •	Install From: Maven Central
 •	Version: 6.2.0.4584
+
 **NodeJS Installation:**
 •	Name: node16
 •	Install From: nodejs.org
 •	Version: 16.20.0
+
 **Docker Installation:**
 •	Name: docker
 •	Install From: docker.com
