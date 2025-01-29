@@ -68,22 +68,19 @@ This will create the EC2 instance, security groups, and install necessary tools 
      
 # JENKINS GLOBAL TOOL CONFIGURATION:
 
- 	**JDK Installation:**
+  **JDK Installation:**
 •	Name: jdk17
 •	Install From: adoptium.net
 •	Version: jdk17.0.8.1+1
-
- 	**SonarQube Scanner Installation:**
+**SonarQube Scanner Installation:**
 •	Name: sonar-scanner
 •	Install From: Maven Central
 •	Version: 6.2.0.4584
-
- 	**NodeJS Installation:**
+**NodeJS Installation:**
 •	Name: node16
 •	Install From: nodejs.org
 •	Version: 16.20.0
-
- 	**Docker Installation:**
+**Docker Installation:**
 •	Name: docker
 •	Install From: docker.com
 •	Version: Latest
